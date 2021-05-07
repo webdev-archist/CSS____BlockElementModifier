@@ -1,0 +1,138 @@
+// @import "./vendors/bootstrap/scss/bootstrap.scss";
+
+/*
+     DD SOME TRAITMENTS HERE WITH nodejs's package for instance
+     THIS FILE WOULD BE IMPORTED FROM style.scss TO build/style.css
+*/
+
+
+
+// @import './node_modules/bootstrap/scss/bootstrap.scss';
+// C:\Users\achic\myDesktop\RUBY\ocr_p7_bis\node_modules\bootstrap\scss\bootstrap.scss
+@import "./main.scss";
+/***********************************/
+/***********************************/
+/************utils******************/
+//EXTENSIONS
+//FONCTIONS
+//MIXINS
+//VARIABLES
+$MAUVE: #9356DC;
+$ROSE: #FF79DA;
+$TURQUOISE: #99E2D0;
+$WHITE: #FFF;
+$BLACK: #000;
+$GRAY: #999;
+$QUERY_MOBILE_MAX: 499px;
+$QUERY_TAB_MIN: 500px;
+$QUERY_TAB_MAX: 999px;
+$QUERY_DESKTOP_MIN: 1000px;
+$QUERY_DESKTOP_MAX: 1499px;
+/***********************************/
+/***********************************/
+/***********************************/
+/************base*******************/
+//BASE
+//NORMALIZE
+//TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{font-family:Roboto;}
+/***********************************/
+/***********************************/
+/************component**************/
+//BUTTONS
+/***********************************/
+/***********************************/
+/************layouts****************/
+//HEADER
+body{
+  &>header{display:flex;justify-content:center;padding:1rem;box-shadow:0 0 10px 1px $GRAY;;
+    &.H>img.H__logo{width:50%;}
+    &.H>button.H__goBack{
+      &>i{}
+    }
+  }
+}
+//NAV
+body{
+  &>nav{display:flex;flex-flow: row wrap;
+    &.N>h1.N__slogan{}
+    &.N>h2.N__slogan_{}
+    &.N>button.N__exploreButton{}
+    &.N>form.N__lieu{}
+  }
+}
+//MAIN
+//MAIN
+//FOOTER
+/***********************************/
+/***********************************/
+/************pages******************/
+@media only screen and (max-width:$QUERY_MOBILE_MAX){
+  body{
+    &>header{}
+    &>nav{}
+    &>main{
+      &>section{}
+      &>article{}
+    }
+    &>footer{
+      &>ul{}
+    }
+  }
+}
+@media only screen and (min-width:$QUERY_TAB_MIN) and (max-width:$QUERY_TAB_MAX){
+  body{
+    &>header{}
+    &>nav{}
+    &>main{
+      &>section{}
+      &>article{}
+    }
+    &>footer{
+      &>ul{}
+    }
+  }
+  // body>header{}
+  // body>main{}
+  // body>main>section{}
+  // body>main>article{}
+  // body>footer{}
+  // body>footer>ul{}
+}
+@media only screen and (min-width:$QUERY_DESKTOP_MIN) and (max-width:$QUERY_DESKTOP_MAX){
+  body{
+    &>header{}
+    &>nav{}
+    &>main{
+      &>section{}
+      &>article{}
+    }
+    &>footer{
+      &>ul{}
+    }
+  }
+  // body>header{}
+  // body>main{}
+  // body>main>section{}
+  // body>main>article{}
+  // body>footer{}
+  // body>footer>ul{}
+}
+//ACCUEIL
+//MENU-1
+//MENU-2
+//MENU-3
+//MENU-4
+/***********************************/
+/***********************************/
+/************themes*****************/
+
+/***********************************/
+/***********************************/
+/************vendors****************/
+
+/***********************************/
+/***********************************/
+
+
