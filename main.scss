@@ -1,6 +1,21 @@
-@import "./utils/variables";@import "./utils/functions";@import "./utils/mixins";@import "./utils/extensions";
-@import "./base/normalize";@import "./base/typography";@import "./base/typography";
+
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/extensions";
+
+@import "./base/normalize";
+@import "./base/typography";
+@import "./base/typography";
 // @import "./vendors/";
+
 @import "./components/buttons";
-@import "./layouts/header";@import "./layouts/nav";@import "./layouts/container";@import "./layouts/form";
-@import "./pages/work";@import "./pages/about";@import "./pages/project";
+
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/container";
+@import "./layouts/form";
+
+@import "./pages/work";
+@import "./pages/about";
+@import "./pages/project";

@@ -28,6 +28,7 @@ $QUERY_TAB_MIN: 500px;
 $QUERY_TAB_MAX: 999px;
 $QUERY_DESKTOP_MIN: 1000px;
 $QUERY_DESKTOP_MAX: 1499px;
+$QUERY_OVERDESKTOP: 1500px;
 /***********************************/
 /***********************************/
 /***********************************/
@@ -46,7 +47,7 @@ $QUERY_DESKTOP_MAX: 1499px;
 /************layouts****************/
 //HEADER
 body{
-  &>header{display:flex;justify-content:center;padding:1rem;box-shadow:0 0 10px 1px $GRAY;;
+  &>header{
     &.H>img.H__logo{width:50%;}
     &.H>button.H__goBack{
       &>i{}
@@ -100,7 +101,45 @@ body{
   // body>footer{}
   // body>footer>ul{}
 }
+@media only screen and (max-width:$QUERY_DESKTOP_MIN){
+  body{
+    &>header{}
+    &>nav{}
+    &>main{
+      &>section{}
+      &>article{}
+    }
+    &>footer{
+      &>ul{}
+    }
+  }
+  // body>header{}
+  // body>main{}
+  // body>main>section{}
+  // body>main>article{}
+  // body>footer{}
+  // body>footer>ul{}
+}
 @media only screen and (min-width:$QUERY_DESKTOP_MIN) and (max-width:$QUERY_DESKTOP_MAX){
+  body{
+    &>header{}
+    &>nav{}
+    &>main{
+      &>section{}
+      &>article{}
+    }
+    &>footer{
+      &>ul{}
+    }
+  }
+  // body>header{}
+  // body>main{}
+  // body>main>section{}
+  // body>main>article{}
+  // body>footer{}
+  // body>footer>ul{}
+}
+@media only screen and (max-width:$QUERY_OVERDESKTOP){
   body{
     &>header{}
     &>nav{}
@@ -134,5 +173,3 @@ body{
 
 /***********************************/
 /***********************************/
-
-
