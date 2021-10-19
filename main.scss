@@ -4,3 +4,63 @@
 @import "./components/buttons";
 @import "./layouts/header";@import "./layouts/nav";@import "./layouts/container";@import "./layouts/form";
 @import "./pages/work";@import "./pages/about";@import "./pages/project";
+
+
+
+
+
+
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+ @import "utils/functions";
+ @import "utils/variables";
+ @import "utils/mixins";
+
+
+
+ @import "base/root";
+ @import "base/reboot";
+ @import "base/type";
+ @import "base/images";
+ @import "base/code";
+
+
+ 
+ @import "utils/grid";
+ @import "base/tables";
+ @import "components/forms";
+ @import "components/buttons";
+ @import "utils/transitions";
+ @import "components/dropdown";
+ @import "components/button-group";
+ @import "components/input-group";
+ @import "components/custom-forms";
+ @import "components/nav";
+ @import "components/navbar";
+ @import "components/card";
+ @import "components/breadcrumb";
+ @import "components/pagination";
+ @import "components/badge";
+ @import "components/jumbotron";
+ @import "components/alert";
+ @import "components/progress";
+ @import "components/media";
+ @import "components/list-group";
+ @import "components/close";
+ @import "components/toasts";
+ @import "components/modal";
+ @import "components/tooltip";
+ @import "components/popover";
+ @import "components/carousel";
+ @import "components/spinners";
+ @import "components/utilities";
+
+ 
+ 
+ @import "base/print";
+ 
