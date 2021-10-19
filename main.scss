@@ -1,9 +1,9 @@
-@import "./utils/variables";@import "./utils/functions";@import "./utils/mixins";@import "./utils/extensions";
-@import "./base/normalize";@import "./base/typography";@import "./base/typography";
-// @import "./vendors/";
-@import "./components/buttons";
-@import "./layouts/header";@import "./layouts/nav";@import "./layouts/container";@import "./layouts/form";
-@import "./pages/work";@import "./pages/about";@import "./pages/project";
+// @import "./utils/variables";@import "./utils/functions";@import "./utils/mixins";@import "./utils/extensions";
+// @import "./base/normalize";@import "./base/typography";@import "./base/typography";
+// // @import "./vendors/";
+// @import "./components/buttons";
+// @import "./layouts/header";@import "./layouts/nav";@import "./layouts/container";@import "./layouts/form";
+// @import "./pages/work";@import "./pages/about";@import "./pages/project";
 
 
 
@@ -17,9 +17,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- @import "utils/functions";
- @import "utils/variables";
- @import "utils/mixins";
+ @import "utils/_functions"; 
+ @import "utils/_variables";
+ @import "utils/_mixins";
 
 
 
@@ -31,36 +31,36 @@
 
 
  
- @import "utils/grid";
+ @import "utils/_grid";
  @import "base/tables";
- @import "components/forms";
- @import "components/buttons";
- @import "utils/transitions";
- @import "components/dropdown";
- @import "components/button-group";
- @import "components/input-group";
- @import "components/custom-forms";
- @import "components/nav";
- @import "components/navbar";
- @import "components/card";
- @import "components/breadcrumb";
- @import "components/pagination";
- @import "components/badge";
- @import "components/jumbotron";
- @import "components/alert";
- @import "components/progress";
- @import "components/media";
- @import "components/list-group";
- @import "components/close";
- @import "components/toasts";
- @import "components/modal";
- @import "components/tooltip";
- @import "components/popover";
- @import "components/carousel";
- @import "components/spinners";
- @import "components/utilities";
+ @import "components/_forms";
+ @import "components/_buttons";
+ @import "utils/_transitions";
+ @import "components/_dropdown";
+ @import "components/_button-group";
+ @import "components/_input-group";
+ @import "components/_custom-forms";
+ @import "components/_nav";
+ @import "components/_navbar";
+ @import "components/_card";
+ @import "components/_breadcrumb";
+ @import "components/_pagination";
+ @import "components/_badge";
+ @import "components/_jumbotron";
+ @import "components/_alert";
+ @import "components/_progress";
+ @import "components/_media";
+ @import "components/_list-group";
+ @import "components/_close";
+ @import "components/_toasts";
+ @import "components/_modal";
+ @import "components/_tooltip";
+ @import "components/_popover";
+ @import "components/_carousel";
+ @import "components/_spinners";
+ @import "utils/_utilities";
 
  
  
- @import "base/print";
+ @import "base/_print";
  

@@ -1,0 +1,20 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassw": "sass index.scss build/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev-archist/CSS____BlockElementModifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdev-archist/CSS____BlockElementModifier/issues"
+  },
+  "homepage": "https://github.com/webdev-archist/CSS____BlockElementModifier#readme"
+}

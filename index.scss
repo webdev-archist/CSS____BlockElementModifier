@@ -10,6 +10,33 @@
 // @import './node_modules/bootstrap/scss/bootstrap.scss';
 // C:\Users\achic\myDesktop\RUBY\ocr_p7_bis\node_modules\bootstrap\scss\bootstrap.scss
 @import "./main.scss";
+
+
+
+
+
+.mynav{
+  @extend .navbar; @extend .navbar-expand-md; @extend .navbar-dark; @extend .bg-dark;
+  >div{
+    @extend .container-fluid;
+    >a{
+      @extend .navbar-brand;
+    }
+    >button{
+      @extend .navbar-toggler;
+      >span{@extend .navbar-toggler-icon;}
+    }
+    >div{
+      @extend .collapse; @extend .navbar-collapse;
+      div{
+        @extend .navbar-nav;
+        >a{@extend .nav-link; 
+          &.active{@extend .active;}
+        }
+      }
+    }
+  }
+}
 /***********************************/
 /***********************************/
 /************utils******************/
@@ -39,35 +66,32 @@ $QUERY_DESKTOP_MAX: 1499px;
 :root{font-family:Roboto;}
 /***********************************/
 /***********************************/
-/************component**************/
-//BUTTONS
-/***********************************/
-/***********************************/
-/************layouts****************/
+/************header****************/
 //HEADER
-body{
-  &>header{display:flex;justify-content:center;padding:1rem;box-shadow:0 0 10px 1px $GRAY;;
-    &.H>img.H__logo{width:50%;}
-    &.H>button.H__goBack{
-      &>i{}
-    }
-  }
-}
+/***********************************/
+/***********************************/
+/************nav****************/
 //NAV
-body{
-  &>nav{display:flex;flex-flow: row wrap;
-    &.N>h1.N__slogan{}
-    &.N>h2.N__slogan_{}
-    &.N>button.N__exploreButton{}
-    &.N>form.N__lieu{}
-  }
-}
+/***********************************/
+/***********************************/
+/************main****************/
 //MAIN
-//MAIN
+/***********************************/
+/***********************************/
+/************footer****************/
 //FOOTER
 /***********************************/
 /***********************************/
-/************pages******************/
+/************buttons**************/
+//BUTTONS
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+
+
+
+
 @media only screen and (max-width:$QUERY_MOBILE_MAX){
   body{
     &>header{}
@@ -93,12 +117,6 @@ body{
       &>ul{}
     }
   }
-  // body>header{}
-  // body>main{}
-  // body>main>section{}
-  // body>main>article{}
-  // body>footer{}
-  // body>footer>ul{}
 }
 @media only screen and (min-width:$QUERY_DESKTOP_MIN) and (max-width:$QUERY_DESKTOP_MAX){
   body{
@@ -112,13 +130,26 @@ body{
       &>ul{}
     }
   }
-  // body>header{}
-  // body>main{}
-  // body>main>section{}
-  // body>main>article{}
-  // body>footer{}
-  // body>footer>ul{}
 }
+
+
+
+
+
+
+
+
+
+
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+
+
+
+
 //ACCUEIL
 //MENU-1
 //MENU-2
