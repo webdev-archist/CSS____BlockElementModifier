@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sassw": "sass index.scss build/index.css -w"
+    "sassw": "sass index.scss build/index.css -w",
+    "sassw_": "sass bootstrap_tests/navbar.scss bootstrap_tests/build/index.css -w"
   },
   "repository": {
     "type": "git",
